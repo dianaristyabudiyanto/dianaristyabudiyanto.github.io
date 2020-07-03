@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(#7F2A68, #2E4272);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Play', sans-serif;
+  transform: translate(0, 90px);
+  color: white;
+}
+
+.start {
+  width: 300px;
+  /* background: rgba(44, 62, 80, 0.7); */
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+.click-here{
+  background: white;
+  color: #AA9E39;
+  font-size: 11pt;
+  width: 70%;
+  transform: translate(40px, 0px);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'Play', sans-serif;
+}
+
+.click-here:hover {
+  cursor: pointer;
+  background-color: #AA9E39;
+  color: white;
+}
+
+label{
+  font-size: 11pt;
+  font-family: 'Play', sans-serif;
+  color: white;
+}
+
+.form-login{
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol-login{
+  background-color: white;
+  color: #AA9E39;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-family: 'Play', sans-serif;
+}
+
+.tombol-login:hover {
+  background-color: #AA9E39;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Play', sans-serif;
+  color: white;
+}
